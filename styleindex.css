@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 300;
+    /* font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal; */
+}
+
+body {
+    background-color: rgb(230, 165, 165);
+}
+
+header {
+    background-color: rgb(77, 39, 39);
+
+    display: flexbox;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 10px;
+}
+
+li > a {
+    color: rgb(230, 165, 165);
+    text-decoration: none;
+    font-weight: 300;
+    font-size: larger;
+}
+
+.coffee-title {
+    color: rgb(230, 165, 165);
+    text-align: right;
+    font-weight: 800;
+    padding: 30px;
+}
+
+/* .clip-pic {
+    width: 100px;
+    display: block;
+} */
+
+.head-pic {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    /* max-width: 100%;
+    height: auto; */
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.content {
+    line-height: 1.7;
+    font-weight: 500;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    font-size: larger;
+    padding: 50px;
+}
+
+.main-pic {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+
+    background-color: rgb(77, 39, 39);
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    width: 100%;
+    color: rgb(230, 165, 165);
+    font-size: larger;
+}
